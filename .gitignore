@@ -1,0 +1,72 @@
+# -----------------------------
+# Python & Cache
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Virtual Environments (Including Anaconda)
+# -----------------------------
+venv/
+env/
+.venv/
+.conda/
+condaenv/
+*.conda
+*.yaml   # environment.yml export
+*.yml
+
+# If you create environment using conda, exclude this default folder:
+envs/
+.conda/
+
+# -----------------------------
+# Jupyter Notebook Checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# Machine Learning / AI Model Files
+# -----------------------------
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.p
+*.joblib
+*.model
+*.tflite
+*.onnx
+
+# Contoh file besar di project kamu
+dataASL.pickle
+model.p
+
+# -----------------------------
+# Dataset / Output
+# -----------------------------
+dataset/
+data/
+output/
+results/
+logs/
+*.log
+
+# -----------------------------
+# IDE / System Files
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Other optional
+# -----------------------------
+*.zip
+*.tar
+*.rar
