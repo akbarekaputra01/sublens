@@ -11,16 +11,13 @@ __pycache__/
 # -----------------------------
 venv/
 env/
+envs/
 .venv/
 .conda/
 condaenv/
 *.conda
 *.yaml   # environment.yml export
 *.yml
-
-# If you create environment using conda, exclude this default folder:
-envs/
-.conda/
 
 # -----------------------------
 # Jupyter Notebook Checkpoints
@@ -42,7 +39,7 @@ envs/
 *.tflite
 *.onnx
 
-# Contoh file besar di project kamu
+# Large File
 dataASL.pickle
 model.p
 
